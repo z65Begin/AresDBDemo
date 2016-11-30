@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8480A1A11DE7DE3B00F70B04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8480A1A01DE7DE3B00F70B04 /* main.m */; };
+		8480A1A41DE7DE3B00F70B04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8480A1A31DE7DE3B00F70B04 /* AppDelegate.m */; };
+		8480A1A71DE7DE3B00F70B04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8480A1A61DE7DE3B00F70B04 /* ViewController.m */; };
+		8480A1AA1DE7DE3B00F70B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8480A1A81DE7DE3B00F70B04 /* Main.storyboard */; };
+		8480A1AD1DE7DE3B00F70B04 /* AresDBDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8480A1AB1DE7DE3B00F70B04 /* AresDBDemo.xcdatamodeld */; };
+		8480A1AF1DE7DE3B00F70B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8480A1AE1DE7DE3B00F70B04 /* Assets.xcassets */; };
+		8480A1B21DE7DE3B00F70B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8480A1B01DE7DE3B00F70B04 /* LaunchScreen.storyboard */; };
+		8480A1BD1DE7DE3B00F70B04 /* AresDBDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8480A1BC1DE7DE3B00F70B04 /* AresDBDemoTests.m */; };
+		8480A1C81DE7DE3B00F70B04 /* AresDBDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8480A1C71DE7DE3B00F70B04 /* AresDBDemoUITests.m */; };
+		8480A1E41DE7DE7200F70B04 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8480A1D91DE7DE7200F70B04 /* FMDatabase.m */; };
+		8480A1E51DE7DE7200F70B04 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8480A1DB1DE7DE7200F70B04 /* FMDatabaseAdditions.m */; };
+		8480A1E61DE7DE7200F70B04 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8480A1DD1DE7DE7200F70B04 /* FMDatabasePool.m */; };
+		8480A1E71DE7DE7200F70B04 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8480A1DF1DE7DE7200F70B04 /* FMDatabaseQueue.m */; };
+		8480A1E81DE7DE7200F70B04 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8480A1E21DE7DE7200F70B04 /* FMResultSet.m */; };
+		8480A1E91DE7DE7200F70B04 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8480A1E31DE7DE7200F70B04 /* Info.plist */; };
+		8480A1ED1DE7DED500F70B04 /* AresElseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8480A1EC1DE7DED500F70B04 /* AresElseTool.m */; };
+		8480A1F01DE7E14500F70B04 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8480A1EF1DE7E14500F70B04 /* libsqlite3.tbd */; };
+		8480A1F31DE81F2300F70B04 /* AresDBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8480A1F21DE81F2300F70B04 /* AresDBModel.m */; };
+		84B5B0351DEBD06C0085291A /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B5B0341DEBD06C0085291A /* TestModel.m */; };
+		84B5B0361DEC06A80085291A /* AresDBTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CB02F11DE83D9D004ED84E /* AresDBTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8480A1B91DE7DE3B00F70B04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8480A1941DE7DE3B00F70B04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8480A19B1DE7DE3B00F70B04;
+			remoteInfo = AresDBDemo;
+		};
+		8480A1C41DE7DE3B00F70B04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8480A1941DE7DE3B00F70B04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8480A19B1DE7DE3B00F70B04;
+			remoteInfo = AresDBDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8480A19C1DE7DE3B00F70B04 /* AresDBDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AresDBDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8480A1A01DE7DE3B00F70B04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8480A1A21DE7DE3B00F70B04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8480A1A31DE7DE3B00F70B04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8480A1A51DE7DE3B00F70B04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8480A1A61DE7DE3B00F70B04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8480A1A91DE7DE3B00F70B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8480A1AC1DE7DE3B00F70B04 /* AresDBDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AresDBDemo.xcdatamodel; sourceTree = "<group>"; };
+		8480A1AE1DE7DE3B00F70B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8480A1B11DE7DE3B00F70B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8480A1B31DE7DE3B00F70B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8480A1B81DE7DE3B00F70B04 /* AresDBDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AresDBDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8480A1BC1DE7DE3B00F70B04 /* AresDBDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AresDBDemoTests.m; sourceTree = "<group>"; };
+		8480A1BE1DE7DE3B00F70B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8480A1C31DE7DE3B00F70B04 /* AresDBDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AresDBDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8480A1C71DE7DE3B00F70B04 /* AresDBDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AresDBDemoUITests.m; sourceTree = "<group>"; };
+		8480A1C91DE7DE3B00F70B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8480A1D81DE7DE7200F70B04 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		8480A1D91DE7DE7200F70B04 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		8480A1DA1DE7DE7200F70B04 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		8480A1DB1DE7DE7200F70B04 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		8480A1DC1DE7DE7200F70B04 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		8480A1DD1DE7DE7200F70B04 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		8480A1DE1DE7DE7200F70B04 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		8480A1DF1DE7DE7200F70B04 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		8480A1E01DE7DE7200F70B04 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		8480A1E11DE7DE7200F70B04 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		8480A1E21DE7DE7200F70B04 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		8480A1E31DE7DE7200F70B04 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8480A1EB1DE7DED500F70B04 /* AresElseTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AresElseTool.h; sourceTree = "<group>"; };
+		8480A1EC1DE7DED500F70B04 /* AresElseTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AresElseTool.m; sourceTree = "<group>"; };
+		8480A1EF1DE7E14500F70B04 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		8480A1F11DE81F2300F70B04 /* AresDBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AresDBModel.h; sourceTree = "<group>"; };
+		8480A1F21DE81F2300F70B04 /* AresDBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AresDBModel.m; sourceTree = "<group>"; };
+		84B5B0331DEBD06C0085291A /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		84B5B0341DEBD06C0085291A /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		84CB02F01DE83D9D004ED84E /* AresDBTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AresDBTool.h; sourceTree = "<group>"; };
+		84CB02F11DE83D9D004ED84E /* AresDBTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AresDBTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8480A1991DE7DE3B00F70B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8480A1F01DE7E14500F70B04 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8480A1B51DE7DE3B00F70B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8480A1C01DE7DE3B00F70B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8480A1931DE7DE3B00F70B04 = {
+			isa = PBXGroup;
+			children = (
+				8480A19E1DE7DE3B00F70B04 /* AresDBDemo */,
+				8480A1BB1DE7DE3B00F70B04 /* AresDBDemoTests */,
+				8480A1C61DE7DE3B00F70B04 /* AresDBDemoUITests */,
+				8480A19D1DE7DE3B00F70B04 /* Products */,
+				8480A1EE1DE7E14500F70B04 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8480A19D1DE7DE3B00F70B04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8480A19C1DE7DE3B00F70B04 /* AresDBDemo.app */,
+				8480A1B81DE7DE3B00F70B04 /* AresDBDemoTests.xctest */,
+				8480A1C31DE7DE3B00F70B04 /* AresDBDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8480A19E1DE7DE3B00F70B04 /* AresDBDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8480A1EA1DE7DE9800F70B04 /* AresDB */,
+				8480A1D61DE7DE7200F70B04 /* Third */,
+				8480A1A21DE7DE3B00F70B04 /* AppDelegate.h */,
+				8480A1A31DE7DE3B00F70B04 /* AppDelegate.m */,
+				8480A1A51DE7DE3B00F70B04 /* ViewController.h */,
+				8480A1A61DE7DE3B00F70B04 /* ViewController.m */,
+				84B5B0331DEBD06C0085291A /* TestModel.h */,
+				84B5B0341DEBD06C0085291A /* TestModel.m */,
+				8480A1A81DE7DE3B00F70B04 /* Main.storyboard */,
+				8480A1AE1DE7DE3B00F70B04 /* Assets.xcassets */,
+				8480A1B01DE7DE3B00F70B04 /* LaunchScreen.storyboard */,
+				8480A1B31DE7DE3B00F70B04 /* Info.plist */,
+				8480A1AB1DE7DE3B00F70B04 /* AresDBDemo.xcdatamodeld */,
+				8480A19F1DE7DE3B00F70B04 /* Supporting Files */,
+			);
+			path = AresDBDemo;
+			sourceTree = "<group>";
+		};
+		8480A19F1DE7DE3B00F70B04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8480A1A01DE7DE3B00F70B04 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8480A1BB1DE7DE3B00F70B04 /* AresDBDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8480A1BC1DE7DE3B00F70B04 /* AresDBDemoTests.m */,
+				8480A1BE1DE7DE3B00F70B04 /* Info.plist */,
+			);
+			path = AresDBDemoTests;
+			sourceTree = "<group>";
+		};
+		8480A1C61DE7DE3B00F70B04 /* AresDBDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8480A1C71DE7DE3B00F70B04 /* AresDBDemoUITests.m */,
+				8480A1C91DE7DE3B00F70B04 /* Info.plist */,
+			);
+			path = AresDBDemoUITests;
+			sourceTree = "<group>";
+		};
+		8480A1D61DE7DE7200F70B04 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				8480A1D71DE7DE7200F70B04 /* fmdb */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		8480A1D71DE7DE7200F70B04 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				8480A1D81DE7DE7200F70B04 /* FMDatabase.h */,
+				8480A1D91DE7DE7200F70B04 /* FMDatabase.m */,
+				8480A1DA1DE7DE7200F70B04 /* FMDatabaseAdditions.h */,
+				8480A1DB1DE7DE7200F70B04 /* FMDatabaseAdditions.m */,
+				8480A1DC1DE7DE7200F70B04 /* FMDatabasePool.h */,
+				8480A1DD1DE7DE7200F70B04 /* FMDatabasePool.m */,
+				8480A1DE1DE7DE7200F70B04 /* FMDatabaseQueue.h */,
+				8480A1DF1DE7DE7200F70B04 /* FMDatabaseQueue.m */,
+				8480A1E01DE7DE7200F70B04 /* FMDB.h */,
+				8480A1E11DE7DE7200F70B04 /* FMResultSet.h */,
+				8480A1E21DE7DE7200F70B04 /* FMResultSet.m */,
+				8480A1E31DE7DE7200F70B04 /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		8480A1EA1DE7DE9800F70B04 /* AresDB */ = {
+			isa = PBXGroup;
+			children = (
+				8480A1EB1DE7DED500F70B04 /* AresElseTool.h */,
+				8480A1EC1DE7DED500F70B04 /* AresElseTool.m */,
+				8480A1F11DE81F2300F70B04 /* AresDBModel.h */,
+				8480A1F21DE81F2300F70B04 /* AresDBModel.m */,
+				84CB02F01DE83D9D004ED84E /* AresDBTool.h */,
+				84CB02F11DE83D9D004ED84E /* AresDBTool.m */,
+			);
+			path = AresDB;
+			sourceTree = "<group>";
+		};
+		8480A1EE1DE7E14500F70B04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8480A1EF1DE7E14500F70B04 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8480A19B1DE7DE3B00F70B04 /* AresDBDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8480A1CC1DE7DE3B00F70B04 /* Build configuration list for PBXNativeTarget "AresDBDemo" */;
+			buildPhases = (
+				8480A1981DE7DE3B00F70B04 /* Sources */,
+				8480A1991DE7DE3B00F70B04 /* Frameworks */,
+				8480A19A1DE7DE3B00F70B04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AresDBDemo;
+			productName = AresDBDemo;
+			productReference = 8480A19C1DE7DE3B00F70B04 /* AresDBDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8480A1B71DE7DE3B00F70B04 /* AresDBDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8480A1CF1DE7DE3B00F70B04 /* Build configuration list for PBXNativeTarget "AresDBDemoTests" */;
+			buildPhases = (
+				8480A1B41DE7DE3B00F70B04 /* Sources */,
+				8480A1B51DE7DE3B00F70B04 /* Frameworks */,
+				8480A1B61DE7DE3B00F70B04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8480A1BA1DE7DE3B00F70B04 /* PBXTargetDependency */,
+			);
+			name = AresDBDemoTests;
+			productName = AresDBDemoTests;
+			productReference = 8480A1B81DE7DE3B00F70B04 /* AresDBDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8480A1C21DE7DE3B00F70B04 /* AresDBDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8480A1D21DE7DE3B00F70B04 /* Build configuration list for PBXNativeTarget "AresDBDemoUITests" */;
+			buildPhases = (
+				8480A1BF1DE7DE3B00F70B04 /* Sources */,
+				8480A1C01DE7DE3B00F70B04 /* Frameworks */,
+				8480A1C11DE7DE3B00F70B04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8480A1C51DE7DE3B00F70B04 /* PBXTargetDependency */,
+			);
+			name = AresDBDemoUITests;
+			productName = AresDBDemoUITests;
+			productReference = 8480A1C31DE7DE3B00F70B04 /* AresDBDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8480A1941DE7DE3B00F70B04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = AresBegin;
+				TargetAttributes = {
+					8480A19B1DE7DE3B00F70B04 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					8480A1B71DE7DE3B00F70B04 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8480A19B1DE7DE3B00F70B04;
+					};
+					8480A1C21DE7DE3B00F70B04 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8480A19B1DE7DE3B00F70B04;
+					};
+				};
+			};
+			buildConfigurationList = 8480A1971DE7DE3B00F70B04 /* Build configuration list for PBXProject "AresDBDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8480A1931DE7DE3B00F70B04;
+			productRefGroup = 8480A19D1DE7DE3B00F70B04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8480A19B1DE7DE3B00F70B04 /* AresDBDemo */,
+				8480A1B71DE7DE3B00F70B04 /* AresDBDemoTests */,
+				8480A1C21DE7DE3B00F70B04 /* AresDBDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8480A19A1DE7DE3B00F70B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8480A1E91DE7DE7200F70B04 /* Info.plist in Resources */,
+				8480A1B21DE7DE3B00F70B04 /* LaunchScreen.storyboard in Resources */,
+				8480A1AF1DE7DE3B00F70B04 /* Assets.xcassets in Resources */,
+				8480A1AA1DE7DE3B00F70B04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8480A1B61DE7DE3B00F70B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8480A1C11DE7DE3B00F70B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8480A1981DE7DE3B00F70B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B5B0351DEBD06C0085291A /* TestModel.m in Sources */,
+				84B5B0361DEC06A80085291A /* AresDBTool.m in Sources */,
+				8480A1A71DE7DE3B00F70B04 /* ViewController.m in Sources */,
+				8480A1E71DE7DE7200F70B04 /* FMDatabaseQueue.m in Sources */,
+				8480A1AD1DE7DE3B00F70B04 /* AresDBDemo.xcdatamodeld in Sources */,
+				8480A1A41DE7DE3B00F70B04 /* AppDelegate.m in Sources */,
+				8480A1E41DE7DE7200F70B04 /* FMDatabase.m in Sources */,
+				8480A1F31DE81F2300F70B04 /* AresDBModel.m in Sources */,
+				8480A1ED1DE7DED500F70B04 /* AresElseTool.m in Sources */,
+				8480A1E61DE7DE7200F70B04 /* FMDatabasePool.m in Sources */,
+				8480A1E81DE7DE7200F70B04 /* FMResultSet.m in Sources */,
+				8480A1A11DE7DE3B00F70B04 /* main.m in Sources */,
+				8480A1E51DE7DE7200F70B04 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8480A1B41DE7DE3B00F70B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8480A1BD1DE7DE3B00F70B04 /* AresDBDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8480A1BF1DE7DE3B00F70B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8480A1C81DE7DE3B00F70B04 /* AresDBDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8480A1BA1DE7DE3B00F70B04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8480A19B1DE7DE3B00F70B04 /* AresDBDemo */;
+			targetProxy = 8480A1B91DE7DE3B00F70B04 /* PBXContainerItemProxy */;
+		};
+		8480A1C51DE7DE3B00F70B04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8480A19B1DE7DE3B00F70B04 /* AresDBDemo */;
+			targetProxy = 8480A1C41DE7DE3B00F70B04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8480A1A81DE7DE3B00F70B04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8480A1A91DE7DE3B00F70B04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8480A1B01DE7DE3B00F70B04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8480A1B11DE7DE3B00F70B04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8480A1CA1DE7DE3B00F70B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8480A1CB1DE7DE3B00F70B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8480A1CD1DE7DE3B00F70B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AresDBDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HIBS.AresDBDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8480A1CE1DE7DE3B00F70B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AresDBDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HIBS.AresDBDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8480A1D01DE7DE3B00F70B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AresDBDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HIBS.AresDBDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AresDBDemo.app/AresDBDemo";
+			};
+			name = Debug;
+		};
+		8480A1D11DE7DE3B00F70B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AresDBDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HIBS.AresDBDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AresDBDemo.app/AresDBDemo";
+			};
+			name = Release;
+		};
+		8480A1D31DE7DE3B00F70B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AresDBDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HIBS.AresDBDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AresDBDemo;
+			};
+			name = Debug;
+		};
+		8480A1D41DE7DE3B00F70B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AresDBDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HIBS.AresDBDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AresDBDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8480A1971DE7DE3B00F70B04 /* Build configuration list for PBXProject "AresDBDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8480A1CA1DE7DE3B00F70B04 /* Debug */,
+				8480A1CB1DE7DE3B00F70B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8480A1CC1DE7DE3B00F70B04 /* Build configuration list for PBXNativeTarget "AresDBDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8480A1CD1DE7DE3B00F70B04 /* Debug */,
+				8480A1CE1DE7DE3B00F70B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8480A1CF1DE7DE3B00F70B04 /* Build configuration list for PBXNativeTarget "AresDBDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8480A1D01DE7DE3B00F70B04 /* Debug */,
+				8480A1D11DE7DE3B00F70B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8480A1D21DE7DE3B00F70B04 /* Build configuration list for PBXNativeTarget "AresDBDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8480A1D31DE7DE3B00F70B04 /* Debug */,
+				8480A1D41DE7DE3B00F70B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8480A1AB1DE7DE3B00F70B04 /* AresDBDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8480A1AC1DE7DE3B00F70B04 /* AresDBDemo.xcdatamodel */,
+			);
+			currentVersion = 8480A1AC1DE7DE3B00F70B04 /* AresDBDemo.xcdatamodel */;
+			path = AresDBDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8480A1941DE7DE3B00F70B04 /* Project object */;
+}
